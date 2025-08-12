@@ -16,7 +16,7 @@ Model complexity
 
 This repo also contains some adjustments to the model as well as additional
 configuration to showcase some features of
-[py-capellambse](https://github.com/DSD-DBS/py-capellambse).
+[py-capellambse](https://github.com/dbinfrago/py-capellambse).
 
 Pulling updates
 ---------------

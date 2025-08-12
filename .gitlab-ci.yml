@@ -2,8 +2,8 @@
 # SPDX-License-Identifier: CC0-1.0
 
 include:
-  - remote: https://raw.githubusercontent.com/DSD-DBS/capella-dockerimages/${CAPELLA_DOCKER_IMAGES_REVISION}/ci-templates/gitlab/diagram-cache.yml
-  - remote: https://raw.githubusercontent.com/DSD-DBS/py-capellambse/${CAPELLAMBSE_REVISION}/ci-templates/gitlab/model-badge.yml
+  - remote: https://raw.githubusercontent.com/dbinfrago/capella-dockerimages/${CAPELLA_DOCKER_IMAGES_REVISION}/ci-templates/gitlab/diagram-cache.yml
+  - remote: https://raw.githubusercontent.com/dbinfrago/py-capellambse/${CAPELLAMBSE_REVISION}/ci-templates/gitlab/model-badge.yml
   - project: se-toolchain/capella-tools/rm-bridge/capella-polarion-mirror
     ref: main
     file: "/ci-templates/gitlab/synchronise_elements.yml"

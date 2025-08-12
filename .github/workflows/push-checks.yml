@@ -29,4 +29,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DSD-DBS/py-capellambse/ci-templates/github/model-complexity-badge@master
+      - uses: dbinfrago/py-capellambse/ci-templates/github/model-complexity-badge@master
